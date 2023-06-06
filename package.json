@@ -1,0 +1,17 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "testing exercises",
+  "main": "arithmetic.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "juan jose",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
