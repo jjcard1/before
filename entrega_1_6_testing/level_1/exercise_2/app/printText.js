@@ -1,6 +1,6 @@
-const printText = ( text ) => { console.log(text); };
+const printInConsole = ( text ) => { console.log(text); };
 
-const options = ( n, callBack ) => {
+const printText = ( n, callBack ) => {
   let message = '';
   if ( n === 1 ) message = 'There is no more Spaguetti';
   if ( n === 2 ) message = 'There are still 3 portions';
@@ -8,6 +8,6 @@ const options = ( n, callBack ) => {
   return callBack( message );
 };
 
-options(2, printText)
+printText(2, printInConsole)
 
-module.exports = {options}
+module.exports = {printText}

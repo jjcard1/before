@@ -47,4 +47,5 @@ getSalary(employee)
   .catch(err => console.log(err.message))
 
 
-  module.exports = getSalary
+
+module.exports = getSalary
